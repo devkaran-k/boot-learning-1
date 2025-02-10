@@ -6,3 +6,47 @@
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
 }
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+h1,h2, h3, h4, h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 1.55rem;
+    color: var(--bs-dark-color);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.07rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
