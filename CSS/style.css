@@ -50,3 +50,37 @@ li{
     list-style: none;
 }
 
+/* Hero Section Start */
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.hero-video--section{
+
+    border-radius: 2rem;
+    width: 38rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section End */
+
+
+
