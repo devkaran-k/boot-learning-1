@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
 }
 
-:root{
+:root {
     --bs-dark-color: #1a1d20;
-    --bs-dark-primary:#1c1c1c;
-    --bs-main-color:#fff;
-    --bs-primary-color:#c6c6c6;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
     --secondary-color: #29a9fd;
     --bs-supporting-color: #C850C0;
 }
 
-h1,h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--bs-dark-color);
 }
 
-h1{
+h1 {
     font-size: 3.8rem;
 }
 
-h2{
+h2 {
     line-height: 3rem;
     font-weight: 600;
     font-size: 3.4rem;
 }
 
-p{
+p {
     font-size: 1rem;
     font-weight: 400;
     margin: 0px;
@@ -42,45 +46,65 @@ p{
     letter-spacing: 0.07rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
+button,
+a {
+    word-spacing: 0.1rem;
+    letter-spacing: 0.03rem;
+    font-size: 1.12rem !important;
+}
+
+/* navbar style */
+
+.nav-link {
+    color: var(--bs-main-color);
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.text-light-grey{
+    color:var(--bs-primary-color);
+}
+
 /* Hero Section Start */
-.bg-main{
+.bg-main {
     height: 80vh;
     position: relative;
 }
-.hero-section .container{
+
+.bg-color {
+    background-color: var(--bs-dark-primary);
+}
+
+/* .bg-theme {
+
+    color: var(--bs-supporting-color);
+    background-image: none !important;
+} */
+
+
+.hero-section .container {
     display: grid;
     place-content: center;
     height: inherit;
 }
 
-.hero-video--section{
-
+.hero-video--section {
     border-radius: 2rem;
     width: 38rem;
-
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
 /* Hero Section End */
-
-
-
