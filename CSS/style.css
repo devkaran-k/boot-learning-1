@@ -12,7 +12,7 @@
     --bs-dark-primary: #1c1c1c;
     --bs-main-color: #fff;
     --bs-primary-color: #c6c6c6;
-    --secondary-color: #29a9fd;
+    --bs-secondary-color: #29a9fd;
     --bs-supporting-color: #C850C0;
 }
 
@@ -69,7 +69,7 @@ a {
 }
 
 .nav-link:hover {
-    color: var(--secondary-color);
+    color: var(--bs-secondary-color);
 }
 
 .text-light-grey{
@@ -135,4 +135,15 @@ background-image: none !important;
     padding: 6rem 0 3rem 0!important;
 }
 
+.icon-span{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--bs-main-color);
+    background-color: var(--bs-secondary-color);
+
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
 /* SERVICE SECTION END */
