@@ -86,12 +86,12 @@ a {
 }
 
 .common-section-padding{
-    padding: 6rem 0 3rem 0!important;
+    padding: 0 0 6rem 0;
 }
 
 /* Hero Section Start */
 .bg-main {
-    height: 60vh;
+    height: 75vh;
     position: relative;
 }
 
