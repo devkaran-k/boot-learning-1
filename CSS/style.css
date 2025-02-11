@@ -85,6 +85,10 @@ a {
     color:var(--bs-primary-color);
 }
 
+.common-section-padding{
+    padding: 6rem 0 3rem 0!important;
+}
+
 /* Hero Section Start */
 .bg-main {
     height: 60vh;
@@ -140,9 +144,7 @@ background-image: none !important;
 /*shape divider end */
 
 /* SERVICE SECTION START */
-.service-section{
-    padding: 6rem 0 3rem 0!important;
-}
+
 
 .icon-span{
     height: 2.5rem;
