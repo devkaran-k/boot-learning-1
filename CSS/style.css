@@ -89,6 +89,60 @@ a {
     padding: 0 0 6rem 0;
 }
 
+
+/* @media screen and (max-width: 998px) {
+
+    .navbar{
+        width: 100%;
+    }
+
+    .navbar-toggler:hover {
+        background-color: rgba(0, 0, 0, 0.116);
+    }
+
+    .navbar-toggler {
+        background-color: Transparent;
+        background-repeat:repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+        color: white;
+        
+      }
+
+
+    
+    .navbar-toggler-icon:hover {
+        color: var(--bs-secondary-color);
+    }
+} */
+
+@media (max-width: 998px) { 
+    .navbar-toggler {
+        border-color: #29a9fd; /* Change the button 
+    }
+
+    .navbar-toggler:hover {
+        background-color: rgba(41, 169, 253, 0.2); /* Light blue hover effect */
+        /* transition: background-color 0.3s ease-in-out;  */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hero Section Start */
 .bg-main {
     height: 75vh;
