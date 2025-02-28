@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #857f7f;
+  padding-left: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.boxshadow {
+  padding: 30px;
+  background-color: #797978;
+  border: 4px solid #797978; /* Square border */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px; /* Optional for slight curve */
+}
+
+.boxshadow:hover{
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4), 
+  -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+
+
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+#weight-guide {
+  /* margin-left: 75px; */
+  text-align: center;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: rgb(241, 241, 241);
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  /* background-color: #fff; */
+  /* padding: 1px 30px; */
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+  font-family: initial;
+  font-size: 23px;
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+}
